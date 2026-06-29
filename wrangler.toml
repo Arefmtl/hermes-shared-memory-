@@ -1,0 +1,11 @@
+name = "hermes-shared-memory"
+main = "src/worker.js"
+compatibility_date = "2025-12-01"
+
+[[kv_namespaces]]
+binding = "SHARED_MEMORY"
+id = "YOUR_NAMESPACE_ID"
+preview_id = "YOUR_PREVIEW_NAMESPACE_ID"
+
+[vars]
+API_TOKEN = ""
