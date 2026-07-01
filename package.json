@@ -1,0 +1,27 @@
+{
+  "name": "@arefmtl/hermes-shared-memory",
+  "version": "1.0.0",
+  "description": "A free cloud bridge between AI Agents — Cloudflare Workers + KV",
+  "main": "src/worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "hermes",
+    "ai-agent",
+    "cloudflare",
+    "workers",
+    "kv",
+    "shared-memory"
+  ],
+  "author": "Arefmtl",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arefmtl/hermes-shared-memory-.git"
+  }
+}
