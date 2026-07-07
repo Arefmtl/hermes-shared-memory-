@@ -2,10 +2,13 @@
 
 A free cloud bridge between AI Agents — Cloudflare Workers + KV
 
-[![npm version](https://img.shields.io/badge/npm-%40arefmtl%2Fhermes--shared--memory-1.0.0-blue)](https://github.com/Arefmtl/hermes-shared-memory-/packages)
+[![npm version](https://img.shields.io/badge/npm-%40arefmtl%2Fhermes--shared--memory-blue)](https://github.com/Arefmtl/hermes-shared-memory-/packages)
 [![Release](https://img.shields.io/badge/Release-v1.0.0-green)](https://github.com/Arefmtl/hermes-shared-memory-/releases/tag/v1.0.0)
-[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange)](https://workers.cloudflare.com)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-hermes--shared--memory-181717?logo=github)](https://github.com/Arefmtl/hermes-shared-memory-)
+[![Made for Hermes Agent](https://img.shields.io/badge/Made%20for-Hermes%20Agent-purple)](https://hermes.nousresearch.com)
+[![Serverless](https://img.shields.io/badge/Architecture-Serverless-red)](https://workers.cloudflare.com)
 
 ---
 
@@ -86,10 +89,10 @@ npm install @arefmtl/hermes-shared-memory --registry https://npm.pkg.github.com
                    │
         ┌──────────┴──────────┐
         │                     │
-   ┌────┴────┐          ┌────┴────┐
-   │ Dionysus│          │Persephone│
-   │ (Mobile)│          │ (Laptop) │
-   └─────────┘          └──────────┘
+   ┌─────────┐          ┌─────────┐
+   │ Device A│          │ Device B│
+   │ (Mobile)│          │ (Laptop)│
+   └─────────┘          └─────────┘
 ```
 
 ## 🔧 API Reference
@@ -158,7 +161,7 @@ Contributions are welcome! Please open an issue or PR.
 
 ## 📄 License
 
-[AGPL-3.0](LICENSE) — Free to use, modify, and distribute.
+[MIT](LICENSE) — Free to use, modify, and distribute.
 
 ## 🔗 Links
 
