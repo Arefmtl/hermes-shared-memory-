@@ -1,4 +1,4 @@
-# 🧠 Hermes Shared Memory
+<picture><source media="(prefers-color-scheme: dark)" srcset=".github/banner.svg"><img src=".github/banner.svg" alt="Banner" width="100%"></picture>\n\n# 🧠 Hermes Shared Memory
 
 A free cloud bridge between AI Agents — Cloudflare Workers + KV
 
